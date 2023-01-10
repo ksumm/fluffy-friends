@@ -1,6 +1,33 @@
-#logo {
-  width: 20%;
-  height: 20%;
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+nav {
+  width: 100%;
+  overflow: auto;
+}
+
+
+ul {
+  padding: 0;
+  margin: 0 0 0 150px;
+  list-style: none;
+}
+li {
+  float:left;
+}
+.logo img {
+  position: relative;
+  top: 0;
+  left: 0;
+  
+}
+
+#logotype {
+  width: 15%;
+  height: 15%;
+  
 } 
 #main_page_image {
   width: 100%;
@@ -12,3 +39,8 @@
   margin-left: 0;
 }
 
+#menu li {
+  float:right;
+  list-style-type: none;
+  margin-right: 30px;
+}
