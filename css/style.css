@@ -158,8 +158,26 @@ padding-left: 25px;
 footer {
   height: 200px;
   background-color: rgba(212,229,243,255);
+}
+.contact-information p {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight:bolder;
+  padding: 1%;
+}
+.contact li{
+  display: inline;
+  list-style-type: none;
+  padding: 10px;
 
 }
+.contact {
+  text-align: center;
+  font-size: 100%;
+  padding: 1%;
+ 
+}
+
 
 .social-networks {
   text-align: center;
@@ -171,8 +189,9 @@ footer {
 
 .social-networks i {
   font-size: 160%;
-  margin: 1%;
-  padding: 5%;
+  
+  padding: 1%;
   color:#3a3a3a;
-
 }
+
+
