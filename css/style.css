@@ -1,4 +1,4 @@
-@import url('href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Source+Sans+Pro&display=swap" rel="stylesheet">');
+@import url('<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@300&display=swap" rel="stylesheet">');
 * {
   margin: 0;
   padding: 0;
@@ -9,16 +9,17 @@ body {
   font-weight: 300;
   color: #3a3a3a;
 }
-h1, h2, nav {
-  font-family: Montserrat, sans-serif;
+h1, nav {
+  font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
   color: #2a1e16;
 }
 nav {
-  width: 85%;
   overflow: auto;
+  text-align: right;
 }
+
 .logo img {
 float: left;
 margin-left: 0px;
@@ -30,35 +31,148 @@ margin-left: 0px;
 } 
 
 #menu {
-  font-size: 100%;
-  text-align: center;
+  font-size: 110%;
 }
 
 #menu li {
   float:right;
-  margin: 0px 10px 0px 10px; 
+  margin-right: 30px; 
   list-style-type: none;
 }
 
 #menu a {
   text-decoration: none;
   color: #2a1e16;
-  font-weight: light; 
-  letter-spacing: 0rem;
-  
+  font-weight: light;  
+}
+
+#menu a:hover {
+  color: rgb(105, 143, 224);
 }
 
 #menu, #logo {
-  line-height: 70px;
+  line-height: 60px;
 }
-
-#main_page_image {
+.container {
   width: 100%;
-  height: 900px;
+  height: 400px;
+  background: url('../images/main_page_photo.jpg'); 
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0;
+  margin: 0 auto;
+  
+}
+/*style main image*/
+
+/*#main_page_image {
+  width: 100%;
+  height: 400px;
   background: url('../images/main_page_photo.jpg');
   background-size: contain;
   background-repeat: no-repeat;
   padding: 0;
   margin-left: 0;
+}*/
+
+#text-cover {
+  position: absolute;
+  font-size: 130%;
+  letter-spacing: 1px;
+  width: 500px;
+  height: 200px;
+  padding-top: 40px;
+  background-color: rgba(201, 200, 195, 0.7);
+
+  right: 4%;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 30px;
+
 }
 
+#text-cover h3 {
+  font-weight: 100;
+  font-family: 'Roboto', sans-serif;
+
+  
+}
+
+#text-cover h2 {
+  text-transform: uppercase;
+}
+
+#text-cover h3 strong {
+  font-size: 150px;
+}
+
+/* about us*/
+
+.aboutUs {
+  height: 400px;
+  margin-top: 10px;
+  background-color: aquamarine;
+ 
+
+}
+
+#left {
+  padding: 30px;
+  width: 43%;
+  float: left;
+  font-size: 150%;
+  margin-left: 2em;
+  margin-right: 0em;
+  line-height: 50px;
+  text-align: left;
+  background-color: rgba(201, 200, 195, 0.7);
+  border-radius: 4px;
+  
+}
+
+#right {
+  
+  padding: 30px;
+  width: 43%;
+  float: right;
+  font-size: 150%;
+  margin-right: 2em;
+  margin-left: 0em;
+  line-height: 50px;
+  text-align: left;
+  background-color:#e8dcdb;
+  border-radius: 4px;
+
+}
+
+#right li {
+  list-style-type:disc;
+}
+
+#right ul {
+padding-left: 25px;
+}
+
+/* footer */
+footer {
+  height: 200px;
+  background-color: rgba(212,229,243,255);
+
+}
+
+.social-networks {
+  text-align: center;
+}
+
+.social-networks li {
+  display: inline;
+}
+
+.social-networks i {
+  font-size: 160%;
+  margin: 1%;
+  padding: 5%;
+  color:#3a3a3a;
+
+}
