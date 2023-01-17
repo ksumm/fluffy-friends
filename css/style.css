@@ -62,6 +62,7 @@ margin-left: 0px;
   background-repeat: no-repeat;
   padding: 0;
   margin: 0 auto;
+  display: flex;
   
 }
 /*style main image*/
@@ -197,12 +198,57 @@ footer {
 
 .findafriend div{
   display:inline-block;
-  width: 30%;
+  
+  width: 400px;
+  height: 300px;
+  padding: 60px 80px;
+  text-align: center;
+}
+ 
+.findafriend h1{
+ text-align: center;
+ font-weight: lighter;
+ font-size: 2em;
+ letter-spacing: 2px;
+ background-color: rgba(212,229,243,255) ;
+}
 
+.findafriend h1 i {
+  color: rgba(201, 200, 195, 1.2);
 }
 
 .findafriend img{
-  height:30%;
-  width: 30%;
+  height: 100%;
+  width: 100%;
+  display: center;
+  border-radius: 5px;
 }
+.findafriend h2 {
+  margin-top: 4%;
+ 
+}
+
+.findafriend hr {
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px 0;
+    }
+
+.findafriend p {
+  margin-top: 20px;
+  
+}
+
+/* stories */
+.stories h1{
+ text-align: center;
+ font-weight: lighter;
+ font-size: 2em;
+ letter-spacing: 2px;
+ background-color: rgba(212,229,243,255) ;
+}
+.stories h1 i {
+  color: rgba(201, 200, 195, 1.2);
+}
+
 
