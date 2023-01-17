@@ -251,4 +251,32 @@ footer {
   color: rgba(201, 200, 195, 1.2);
 }
 
+#main_block {
+width: 100%;
 
+background-color: rgba(201, 200, 195, 0.2);
+}
+
+#text-area {
+  width: 60%;
+  margin: 0 auto;
+}
+#text-area h2{
+  padding-top: 40px;
+  text-align: center;
+}
+#text-area hr {
+  border-top: 1px solid #3a3a3a;
+  width: 100%;
+  margin: 10px 0;
+}
+
+#text-area img {
+  height: 100%;
+  width: 100%;
+  display: center;
+  border-radius: 5px;
+}
+#text-area p {
+  line-height: 25px;
+}
