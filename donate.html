@@ -18,59 +18,46 @@
     </h1> 
     <nav>
       <ul id="menu">
-        <li><a href = "donate.html" target="_blank"><button type="button" class ="donate-button">DONATE</button></a></li>
+       <li><a href = "donate.html" target="_blank"><button type="button" class ="donate-button">DONATE</button></a></li>
         <li><a href = "index.html">HOME</a></li>
-        <li><a href = "#">Stories</a></li>
+        <li><a href = "stories.html">Stories</a></li>
         <li><a href = "findafriend.html">Find A Friend</a></li>
-      </ul>
+      </ul>   
     </nav>
   </header>
-  <section class ="stories">
-    <h1>
-    Our <strong>HAPPY <i class="fa-solid fa-heart"></i></strong> stories
-    </h1>
-    <div id="main_block">
-      <div id="text-area">
-        <h2>
-          Lucy and Lucky
-        </h2>
-        <hr>
-        <img src="images/home3.jpg" alt="image">
-        <hr>
-        <p>
-          Lucy and Lucky came to our shelter as small 4-month-old puppies. Two months later, one family admitted a particular interest in them and confirmed they would like to meet them.
-        </p>
-        <br>
-        <p>
-          It was love at first sight. The dogs now live in their lovely home in the suburbs of Limerick.
-They have already grown up, and when a baby was born in the family, they became his real friends.
-Every morning they patiently wait for a walk in the park with the whole family, and on weekends they are happy to go to the coast with the family.
-        </p>
-        <h2>
-          Charlie
-        </h2>
-        <hr>
-        <img src="images/home4.jpg" alt="image">
-        <hr>
-        <p>
-          Charlie was tracked down on the street as a puppy. We advertised in local newspapers - but never discovered his owners.   
-        </p>
-        <br>
-        <p>
-          Later, he was trained by Irish Guide Dogs for the Blind as a guide dog. Instantly he is assisting the man with visual disorder to make it easier to move around safely. They come being sincere friends!
-        </p>
-      </div>
-    </div>
-  </section>
+  <h1>YOUR <strong>DONATION <i class="fa-solid fa-paw"></i></strong></h1>
+  <form>
+    <ul>
+      <li><input type ="checkbox" id = "payment">
+        <label for="payment">Make a monthly sustaining donation</label></li>
+        <li><input type ="checkbox" id = "payment">
+          <label for="payment">Make a one-time donation</label></li>
+    </ul>
+    <label for="amount">* Select gift amount, &#8364;</label>
+    <select name = "amount" id="amount">
+      <option value="5">5</option>
+      <option value="10">10</option>
+      <option value="25">25</option>
+      <option value="50">50</option>
+      <option value="100">100</option>
+      <option value="250">250</option>
+    </select>
+  </form>
+  <h1>YOUR INFORMATION</h1>
+    <form>
+    <label for="fname">First Name</label>
+    <input id = "fname" type="text">
+    <label for="fname">Last Name</label>
+    <input id = "lname" type="text">
+    <label for="address">Card Number</label>
+    <input id = "cardnumber" type="text">
+    <label for="fname">Expiry Date</label>
+    <input id = "expdate" type="text">
+    <label for="fname">CVV</label>
+    <input id = "country" type="text">
 
-  
-
- 
-     
-  
- 
-
-  
+    </form>
+    <button type="submit">SUBMIT YOUR PAYMENT</button>
 
   <footer>
     <div class="contact-information">

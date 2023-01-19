@@ -9,6 +9,19 @@ body {
   font-weight: 300;
   color: #3a3a3a;
 }
+h1 {
+text-align: center;
+font-weight: lighter;
+font-size: 2em;
+letter-spacing: 2px;
+background-color: rgba(212,229,243,255);
+
+}
+
+h1 i {
+  color: rgba(201, 200, 195, 1.2);
+}
+
 h1, nav {
   font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
@@ -24,6 +37,19 @@ nav {
 float: left;
 margin-left: 0px;
 }
+ button {
+  text-decoration: none;
+  color: #2a1e16;
+  font-weight: light;
+  font-size: 110%;
+  letter-spacing: 1px;
+  padding: 0.7rem;
+  border-radius: 5px;
+ }
+
+button:hover {
+  background-color: rgba(212,229,243,255);
+}
 
 #logotype {
   width: 15%;
@@ -36,7 +62,8 @@ margin-left: 0px;
 
 #menu li {
   float:right;
-  margin-right: 30px; 
+  margin-right: 10px; 
+  margin-left: 20px;
   list-style-type: none;
 }
 
@@ -113,8 +140,6 @@ margin-left: 0px;
 .aboutUs {
   height: 800px;
   margin-top: 0px;
-  
- 
 
 }
 
@@ -160,25 +185,26 @@ footer {
   height: 200px;
   background-color: rgba(212,229,243,255);
 }
+footer p {
+  padding-top: 2.5rem;
+  padding-bottom: 1rem;
+}
 .contact-information p {
   text-align: center;
   text-transform: uppercase;
   font-weight:bolder;
-  padding: 1%;
 }
 .contact li{
   display: inline;
   list-style-type: none;
   padding: 10px;
-
+  
 }
 .contact {
   text-align: center;
   font-size: 100%;
   padding: 1%;
- 
 }
-
 
 .social-networks {
   text-align: center;
@@ -186,12 +212,13 @@ footer {
 
 .social-networks li {
   display: inline;
+ 
 }
 
 .social-networks i {
   font-size: 160%;
-  
   padding: 1%;
+  padding-bottom: 2rem;
   color:#3a3a3a;
 }
 /*find a frieng page*/
@@ -204,18 +231,7 @@ footer {
   padding: 60px 80px;
   text-align: center;
 }
- 
-.findafriend h1{
- text-align: center;
- font-weight: lighter;
- font-size: 2em;
- letter-spacing: 2px;
- background-color: rgba(212,229,243,255) ;
-}
 
-.findafriend h1 i {
-  color: rgba(201, 200, 195, 1.2);
-}
 
 .findafriend img{
   height: 100%;
@@ -253,14 +269,15 @@ footer {
 
 #main_block {
 width: 100%;
-
 background-color: rgba(201, 200, 195, 0.2);
+padding-bottom: 2rem;
 }
 
 #text-area {
   width: 60%;
   margin: 0 auto;
 }
+
 #text-area h2{
   padding-top: 40px;
   text-align: center;
@@ -280,3 +297,6 @@ background-color: rgba(201, 200, 195, 0.2);
 #text-area p {
   line-height: 25px;
 }
+
+/*Donate page and button*/
+
