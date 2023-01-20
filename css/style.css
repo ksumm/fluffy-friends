@@ -2,7 +2,7 @@
 * {
   margin: 0;
   padding: 0;
-  border: none;
+ 
 }
 body {
   font-family: Montserrat, sans-serif;
@@ -45,6 +45,7 @@ margin-left: 0px;
   letter-spacing: 1px;
   padding: 0.7rem;
   border-radius: 5px;
+  border: none;
  }
 
 button:hover {
@@ -299,4 +300,52 @@ padding-bottom: 2rem;
 }
 
 /*Donate page and button*/
+.donation {
+  display: grid;
+  width: 33%;
+  height: 100%;
+  margin-left: 33%;
+  text-align: left;
+  padding: 2rem;
+ 
+  line-height: 3rem;
+  font-size: larger;
+
+}
+
+.donation li{
+  list-style-type: none;
+}
+
+#amount {
+  display: block;
+
+}
+#amount button{
+  width: 12rem;
+  height: 4rem;
+  margin: 1rem;
+}
+.personalinfo {
+  display: grid;
+  width: 33%;
+  height: 100%;
+  margin-left: 33%;
+  text-align: left;
+  padding: 2rem;
+  line-height: 3rem;
+  font-size: larger;
+  border-color: #3a3a3a !important;
+}
+
+.personalinfo input {
+  line-height: 3rem;
+  border-radius: 4px;
+  border-width: 0.3px;
+  font-size: 110%;
+  font-weight: 50;
+  color:#797878;
+  letter-spacing: 2px;
+  font-family: 'Roboto', sans-serif;
+}
 
