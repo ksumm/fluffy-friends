@@ -2,14 +2,15 @@
 * {
   margin: 0;
   padding: 0;
+  
  
 }
 body {
-  font-family: Montserrat, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   color: #3a3a3a;
-  height: 100vh;
 }
+
 h1 {
 text-align: center;
 font-weight: lighter;
@@ -37,7 +38,11 @@ nav {
 .logo img {
 float: left;
 margin-left: 0px;
+margin-top: 0.3rem;
+width: 14%;
+
 }
+
 button {
   text-decoration: none;
   color: #2a1e16;
@@ -51,13 +56,6 @@ button {
 button:hover {
   background-color: rgba(212,229,243,255);
 }
-
-#logotype {
-  width: 17%;
-  height: 17%; 
-  position: sticky;
-  margin-top: 4px;
-} 
 
 #menu {
   font-size: 110%;
@@ -117,12 +115,11 @@ header {
 #text-cover h3 {
   font-weight: 100;
   font-family: 'Roboto', sans-serif;
-
-  
 }
 
-#text-cover h2 {
+#text-cover h1 {
   text-transform: uppercase;
+  background-color: rgba(240,240,238,0.7);
 }
 
 #text-cover h3 strong {
@@ -134,7 +131,6 @@ header {
 .aboutUs {
   height: 800px;
   margin-top: 0px;
-
 }
 
 #left {
@@ -147,8 +143,7 @@ header {
   line-height: 50px;
   text-align: left;
   background-color: rgba(201, 200, 195, 0.7);
-  border-radius: 4px;
-  
+  border-radius: 4px;  
 }
 
 #right {
