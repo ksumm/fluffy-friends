@@ -1,12 +1,14 @@
-@import url('<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@300&display=swap" rel="stylesheet">');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   
- 
 }
+
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 300;
   color: #3a3a3a;
 }
@@ -25,7 +27,7 @@ h1 i {
 }
 
 h1, nav {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Monserrat', sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
   color: #2a1e16;
@@ -104,7 +106,6 @@ header {
   height: 30%;
   padding-top: 40px;
   background-color: rgba(240,240,238,0.7);
-
   right: 4%;
   border-radius: 2%;
   text-align: center;
@@ -127,47 +128,89 @@ header {
 }
 
 /* about us*/
+.dogsnumber {
+  background-color: #fff;
+  color:#3a3a3a;
+  display: flexbox;
+  text-align: center;
+  line-height: 4rem;
+  font-size: 3em;
+  font-weight: lighter;
+  padding: 4rem 2rem;
+  font-family:'Montserrat', sans-serif;
+}
 
 .aboutUs {
-  height: 800px;
+  height: 400px;
   margin-top: 0px;
+  width: 100%;
+  margin: 0 auto;
+  display:inline-block;
+  width: 100%;
+  line-height: 40px;
+  font-size: 1.2rem;
+  background-color:  rgba(240,240,238,0.7);
+ 
 }
 
-#left {
-  padding: 30px;
-  width: 43%;
+.aboutUs h2{
+  padding-top: 40px;
+  text-align: center;
+}
+.aboutUs hr {
+  border-top: 1px solid #3a3a3a;
+  width: 100%;
+  margin: 10px 0;
+  text-align: center;
+}
+
+
+.dogsQuantity {
+  background-color: #fff;
+  color:#3a3a3a;
+  display: flexbox;
+  text-align: center;
+  line-height: 6rem;
+  font-size: 3em;
+  font-weight: lighter;
+  padding: 4rem 2rem;
+  font-family:'Roboto', sans-serif;
+}
+.left-about {
+  width: 40%;
   float: left;
-  font-size: 150%;
-  margin-left: 2em;
-  margin-right: 0em;
-  line-height: 50px;
-  text-align: left;
-  background-color: rgba(201, 200, 195, 0.7);
-  border-radius: 4px;  
+  padding-left: 3rem; 
+ 
 }
-
-#right {
-  
-  padding: 30px;
-  width: 43%;
+.right-about {
+  width: 40%;
   float: right;
-  font-size: 150%;
-  margin-right: 2em;
-  margin-left: 0em;
-  line-height: 50px;
-  text-align: left;
-  background-color:#e8dcdb;
-  border-radius: 4px;
+  padding-right: 3rem;
+ }
 
-}
+ .right-about li {
+  list-style-type: none;
+ }
 
-#right li {
-  list-style-type:disc;
-}
+ /*makeafriend*/
+ .makeafriend {
+  height: 400px;
+  margin-top: 0px;
+  width: 100%;
+  margin: 0 auto;
+  display:inline-block;
+  width: 100%;
+  line-height: 40px;
+  font-size: 1.2rem;
+  background-color: white;
+ }
 
-#right ul {
-padding-left: 25px;
-}
+
+
+
+
+
+
 
 /* footer */
 footer {
@@ -211,14 +254,18 @@ footer p {
   color:#3a3a3a;
 }
 /*find a frieng page*/
+.findafriend {
+  margin-bottom: 3rem;
+}
 
 .findafriend div{
   display:inline-block;
-  
   width: 400px;
   height: 300px;
   padding: 60px 80px;
   text-align: center;
+  margin-left: 1.5rem;
+ 
 }
 
 
@@ -240,8 +287,7 @@ footer p {
     }
 
 .findafriend p {
-  margin-top: 20px;
-  
+  margin-top: 20px; 
 }
 
 /* stories */
