@@ -12,30 +12,28 @@
 </head>
 <body>
   <header>
-    <h1>
     <div class = "logo"><a href = "index.html"><img src = "images/logo.jpg" alt = "logo" id = "logotype"></a>
-    </div>
-    </h1> 
+    </div> 
     <nav>
       <ul id="menu">
        <li><a href = "donate.html" target="_blank"><button type="button" class ="donate-button">DONATE</button></a></li>
-        <li><a href = "index.html">HOME</a></li>
         <li><a href = "stories.html">Stories</a></li>
         <li><a href = "findafriend.html">Find A Friend</a></li>
+        <li><a href = "index.html">HOME</a></li>
       </ul>   
     </nav>
   </header>
   <h1>YOUR <strong>DONATION <i class="fa-solid fa-paw"></i></strong></h1>
   <form class = "donation">
     <ul>
-      <li><input type ="checkbox" id = "payment">
-        <label for="payment">Make a monthly sustaining donation</label></li>
-        <li><input type ="checkbox" id = "payment">
-          <label for="payment">Make a one-time donation</label></li>
+      <li><input type ="checkbox" id="monthly">
+        <label for="monthly">Make a monthly sustaining donation</label></li>
+        <li><input type ="checkbox" id="onetime">
+          <label for="onetime">Make a one-time donation</label></li>
     </ul>
     <p>* Select gift amount, &#8364;</p>
     <div id="amount">
-    <button type="submit" active>5</button>
+    <button>5</button>
     <button>10</button>
     <button>25</button>
     <button>50</button>
@@ -47,13 +45,13 @@
     <form class="personalinfo">
     <label for="fname">First Name:</label>
     <input type="text" name="fname" id="fname">
-    <label for="fname">Last Name:</label>
+    <label for="lname">Last Name:</label>
     <input id = "lname" type="text">
-    <label for="address">Card Number:</label>
+    <label for="cardnumber">Card Number:</label>
     <input id = "cardnumber" type="text">
-    <label for="fname">Expiry Date:</label>
+    <label for="expdate">Expiry Date:</label>
     <input id = "expdate" type="text">
-    <label for="fname">CVV</label>
+    <label for="country">CVV</label>
     <input id = "country" type="text">
     <br>
     <button type="submit">SUBMIT YOUR PAYMENT</button>

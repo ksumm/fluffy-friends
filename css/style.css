@@ -40,7 +40,6 @@ margin-left: 0px;
 button {
   text-decoration: none;
   color: #2a1e16;
-  font-weight: light;
   font-size: 110%;
   letter-spacing: 1px;
   padding: 0.7rem;
@@ -72,8 +71,7 @@ button:hover {
 
 #menu a {
   text-decoration: none;
-  color: #2a1e16;
-  font-weight: light;  
+  color: #2a1e16; 
 }
 
 #menu a:hover {
@@ -90,8 +88,8 @@ header {
 
 .container {
   width: 100%;
-  height: 30rem;
-  background: url('../images/main_page_photo.jpg'); 
+  height: 720px;
+  background: url('../images/main_page_photo-min.jpg'); 
   background-position: center 100%;
   background-size: 100%;
   background-repeat: no-repeat;
@@ -100,17 +98,6 @@ header {
   display: flex;
   
 }
-/*style main image*/
-
-/*#main_page_image {
-  width: 100%;
-  height: 400px;
-  background: url('../images/main_page_photo.jpg');
-  background-size: contain;
-  background-repeat: no-repeat;
-  padding: 0;
-  margin-left: 0;
-}*/
 
 #text-cover {
   position: absolute;
