@@ -57,6 +57,7 @@ button {
 
 button:hover {
   background-color: rgba(212,229,243,255);
+  cursor: pointer;
 }
 
 #menu {
@@ -95,6 +96,7 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
+  position: relative;
   
 }
 
@@ -116,6 +118,7 @@ header {
 #text-cover h3 {
   font-weight: 100;
   font-family: 'Roboto', sans-serif;
+  position: absolute;
 }
 
 #text-cover h1 {
@@ -217,13 +220,20 @@ header {
   float: left;
   padding-left: 5rem;
   text-align: center;
+
  
  }
  .left-friend button {
-  margin-top: 4rem;
+  margin-top: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  background-color: rgba(212,229,243,255);
+ }
+ .left-friend button:hover {
+  background-color: rgba(240,240,238,0.7);
  }
  .left-friend p {
-  margin-top: 4rem;
+  margin-top: 2rem;
  }
 
  .right-friend {
