@@ -150,6 +150,7 @@ header {
   line-height: 40px;
   font-size: 1.2rem;
   background-color:  rgba(240,240,238,0.7);
+  
  
 }
 
@@ -179,13 +180,16 @@ header {
 .left-about {
   width: 40%;
   float: left;
-  padding-left: 3rem; 
+  padding-left: 3rem;
+  padding-bottom: 3rem; 
+  
  
 }
 .right-about {
   width: 40%;
   float: right;
   padding-right: 3rem;
+
  }
 
  .right-about li {
@@ -195,14 +199,37 @@ header {
  /*makeafriend*/
  .makeafriend {
   height: 400px;
-  margin-top: 0px;
-  width: 100%;
-  margin: 0 auto;
-  display:inline-block;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
   width: 100%;
   line-height: 40px;
   font-size: 1.2rem;
-  background-color: white;
+  display: block;
+ }
+ .makeafriend img {
+ height: 100%;
+ width: 100%;
+
+ }
+
+ .left-friend {
+  width: 40%;
+  float: left;
+  padding-left: 5rem;
+  text-align: center;
+ 
+ }
+ .left-friend button {
+  margin-top: 4rem;
+ }
+ .left-friend p {
+  margin-top: 4rem;
+ }
+
+ .right-friend {
+  width: 40%;
+  float: right;
+  padding-right: 5rem;
  }
 
 
