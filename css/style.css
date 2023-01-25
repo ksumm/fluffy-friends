@@ -45,7 +45,7 @@ width: 14%;
 
 }
 
-button {
+.button {
   text-decoration: none;
   color: #2a1e16;
   font-size: 110%;
@@ -53,9 +53,10 @@ button {
   padding: 0.7rem;
   border-radius: 5px;
   border: none;
+  background-color: rgba(201, 200, 195, 1.2);
  }
 
-button:hover {
+.button:hover {
   background-color: rgba(212,229,243,255);
   cursor: pointer;
 }
