@@ -224,17 +224,24 @@ header {
 
  
  }
- .left-friend button {
-  margin-top: 2rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
+ .friendbutton {
+  font-size: 110%;
+  letter-spacing: 1px;
+  padding: 0.7rem;
+  border-radius: 5px;
   background-color: rgba(212,229,243,255);
+  text-decoration: none;
+  color: #2a1e16;
+  text-transform: uppercase;
  }
- .left-friend button:hover {
+
+ .friendbutton:hover {
   background-color: rgba(240,240,238,0.7);
+  cursor: pointer;
  }
  .left-friend p {
   margin-top: 2rem;
+  margin-bottom: 2rem;
  }
 
  .right-friend {
