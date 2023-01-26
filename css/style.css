@@ -115,8 +115,12 @@ header {
   font-family: 'Roboto', sans-serif;
   font-size: 8rem;
   text-align: center;
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+  font-weight: 100;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin-top: 3rem;
+  margin-bottom: 7rem;
+  background-color: rgba(255, 255, 255, 0.7);
 }
 
 #text-cover h1 {
@@ -126,7 +130,7 @@ header {
   padding-bottom: 2rem;
 }
 #text-cover p {
-  padding-top: 4rem;
+  padding-top: 2rem;
 }
 
 /* about us*/
@@ -228,14 +232,15 @@ header {
   letter-spacing: 1px;
   padding: 1.2rem 4rem;
   border-radius: 5px;
-  background-color: rgba(212,229,243,255);
+  background-color: #2a1e16;
   text-decoration: none;
-  color: #2a1e16;
+  color: rgba(255, 255, 255, 0.8);
   text-transform: uppercase;
  }
 
  .friendbutton:hover {
-  background-color: rgba(240,240,238,0.7);
+  background-color: #d8e4f2;
+  color: #2a1e16;
   cursor: pointer;
  }
  .right-friend p {
