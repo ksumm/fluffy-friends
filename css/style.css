@@ -126,7 +126,7 @@ header {
   padding-bottom: 0.5rem;
 }
 #text-cover p {
-  padding-top: 2rem;
+  padding-top: 4rem;
 }
 
 /* about us*/
@@ -223,9 +223,9 @@ header {
  
  }
  .friendbutton {
-  font-size: 110%;
+  font-size: 1.2rem;
   letter-spacing: 1px;
-  padding: 0.7rem;
+  padding: 1.2rem 4rem;
   border-radius: 5px;
   background-color: rgba(212,229,243,255);
   text-decoration: none;
