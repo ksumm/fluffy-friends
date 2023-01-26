@@ -112,18 +112,18 @@ header {
 }
 
 #text-cover h3 {
-  font-weight: 100;
   font-family: 'Roboto', sans-serif;
   font-size: 8rem;
   text-align: center;
-  padding-top: 2rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 #text-cover h1 {
   background-color: rgb(255, 255, 255, 0.7);
-  margin-top: 11rem;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  margin-top: 5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 #text-cover p {
   padding-top: 4rem;
