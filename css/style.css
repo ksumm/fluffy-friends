@@ -458,4 +458,93 @@ padding-bottom: 2rem;
 
 }
 
+/*media queries*/
+/*for medium and screen sizes from 950px wide and down */
+@media screen and (max-width: 950px){
+nav {
+  font-size: 0.5rem;
+}
+
+.button {
+  padding: 0.35rem;
+}
+
+h1 {
+font-size: 1rem;
+}
+
+#text-cover p{
+  font-size: 0.7rem;
+}
+
+#text-cover h3 {
+  font-size: 3rem;
+}
+
+.friendbutton {
+  font-size: 1rem;
+  padding:0.6rem 2rem;
+}
+
+.dogsnumber {
+  line-height: 2rem;
+  font-size: 1.5rem;
+}
+
+.aboutUs {
+  height: 70vh;
+  font-size: 0.7rem;
+  line-height: 1.5rem;
+ 
+}
+
+.left-about {
+ width: 70%;
+ margin: 0 auto;
+ padding: 1.5rem ;
+ float: unset;
+}
+
+.right-about {
+ width: 70%;
+ margin: 0 auto;
+ padding: 1.5rem ;
+ float: unset; 
+}
+.makeafriend{
+  margin-top: 0.5rem;
+  line-height: 1.5rem;
+}
+.makeafriend img {
+  height: 20vh;
+  width: 30vh;
+}
+
+.left-friend, .right-friend {
+ width: 70%;
+ margin: 0 auto;
+ padding: 1.5rem ;
+ float: unset;
+ font-size: 0.7rem; 
+ padding-top: 0.5rem;
+}
+
+.right-friend p {
+  margin-top: 1rem;
+  margin-bottom: 2.5rem;
+}
+.contact-information p {
+  padding-top: 1.2rem;
+  padding-bottom: 0.5rem;
+}
+.contact li {
+  display: block;
+  font-size: 0.7rem;
+}
+}
+
+
+
+
+
 
