@@ -406,10 +406,19 @@ padding-bottom: 2rem;
   display: block;
 
 }
-#amount button{
-  width: 12rem;
-  height: 4rem;
-  margin: 1rem;
+#amount-choice {
+  line-height: 3rem;
+  border-radius: 4px;
+  border-width: 0.3px;
+  font-size: 110%;
+  font-weight: 50;
+  color: #797878;
+  letter-spacing: 2px;
+  font-family: 'Roboto', sans-serif;
+}
+#amount-choice option {
+  font-size: 4rem;
+  text-align: center;
 }
 .personalinfo {
   display: grid;
