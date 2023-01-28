@@ -460,9 +460,16 @@ padding-bottom: 2rem;
 
 /*media queries*/
 /*for medium and screen sizes from 950px wide and down */
-@media screen and (max-width: 950px){
+@media only screen and (max-width: 900px){
+.logo img {
+  width: 25%;
+}
 nav {
   font-size: 0.5rem;
+}
+#menu li {
+  margin-left: 10px;
+  margin-right: 5px; 
 }
 
 .button {
@@ -479,11 +486,15 @@ font-size: 1rem;
 
 #text-cover h3 {
   font-size: 3rem;
+  margin-bottom: 4rem;
+}
+#text-cover h1{
+  margin-top: 2rem;
 }
 
 .friendbutton {
-  font-size: 1rem;
-  padding:0.6rem 2rem;
+  font-size: 0.8rem;
+  padding:0.4rem 2rem;
 }
 
 .dogsnumber {
@@ -540,6 +551,45 @@ font-size: 1rem;
 .contact li {
   display: block;
   font-size: 0.7rem;
+}
+.findafriend div {
+  padding: 30px 25px;
+  display:inline-block;
+  margin-left: 1rem;
+  padding-left: 0.5rem;
+ padding-right: 0;
+  width: 80%;
+  height: auto;
+  clear: both;
+  
+}
+.findafriend img {
+  width: 80%;
+  height: 70%;
+}
+
+h2 {
+  font-size: 1rem;
+}
+.stories h1 {
+  font-size: 1rem;
+}
+.donation {
+  display: inline-block;
+  width: 60%;
+  margin-left: 2rem;
+  font-size: 1rem;
+}
+.personalinfo {
+  display: inline-block;
+  width: 60%;
+  margin-left: 2.5rem;
+  font-size: 1rem; 
+}
+.personalinfo button {
+  font-size: 0.8rem;
+  padding:0.1rem 0.9rem;
+  margin-top: 2rem;
 }
 }
 
