@@ -19,7 +19,7 @@ body {
 h1 {
 text-align: center;
 font-weight: lighter;
-font-size: 2em;
+font-size: 2rem;
 letter-spacing: 2px;
 background-color: rgba(212,229,243,255);
 
@@ -51,7 +51,7 @@ width: 14%;
 .button {
   text-decoration: none;
   color: #2a1e16;
-  font-size: 110%;
+  font-size: 1rem;
   letter-spacing: 1px;
   padding: 0.7rem;
   border-radius: 5px;
@@ -65,7 +65,7 @@ width: 14%;
 }
 
 #menu {
-  font-size: 110%;
+  font-size: 1rem;
 }
 
 #menu li {
@@ -144,7 +144,7 @@ header {
   display: flexbox;
   text-align: center;
   line-height: 4rem;
-  font-size: 3em;
+  font-size: 3rem;
   font-weight: lighter;
   padding: 4rem 2rem;
   font-family:'Montserrat', sans-serif;
@@ -174,24 +174,23 @@ header {
 }
 
 
-.dogsQuantity {
+/*.dogsQuantity {
   background-color: #fff;
   color:#3a3a3a;
   display: flexbox;
   text-align: center;
   line-height: 6rem;
-  font-size: 3em;
+  font-size: 3rem;
   font-weight: lighter;
   padding: 4rem 2rem;
   font-family:'Roboto', sans-serif;
-}
-.left-about {
+}*/
+.left-about { 
   width: 40%;
   float: left;
   padding-left: 3rem;
   padding-bottom: 3rem; 
   
- 
 }
 .right-about {
   width: 40%;
@@ -282,7 +281,7 @@ footer p {
 }
 .contact {
   text-align: center;
-  font-size: 100%;
+  font-size: 1rem;
   padding: 1%;
 }
 
@@ -296,8 +295,8 @@ footer p {
 }
 
 .social-networks i {
-  font-size: 160%;
-  padding: 1%;
+  font-size: 1.6rem;
+  padding: 1.2%;
   padding-bottom: 2rem;
   color:#3a3a3a;
 }
@@ -345,7 +344,7 @@ footer p {
 .stories h1{
  text-align: center;
  font-weight: lighter;
- font-size: 2em;
+ font-size: 2rem;
  letter-spacing: 2px;
  background-color: rgba(212,229,243,255) ;
 }
@@ -393,9 +392,8 @@ padding-bottom: 2rem;
   margin-left: 33%;
   text-align: left;
   padding: 2rem;
- 
   line-height: 3rem;
-  font-size: larger;
+  font-size: 1.2rem;
 
 }
 
@@ -411,8 +409,7 @@ padding-bottom: 2rem;
   line-height: 3rem;
   border-radius: 4px;
   border-width: 0.3px;
-  font-size: 110%;
-  font-weight: 50;
+  font-size: 1.2rem;
   color: #797878;
   letter-spacing: 2px;
   font-family: 'Roboto', sans-serif;
@@ -429,7 +426,7 @@ padding-bottom: 2rem;
   text-align: left;
   padding: 2rem;
   line-height: 3rem;
-  font-size: larger;
+  font-size: 1.2rem;
   border-color: #3a3a3a !important;
 }
 
@@ -438,7 +435,6 @@ padding-bottom: 2rem;
   border-radius: 4px;
   border-width: 0.3px;
   font-size: 1.2rem;
-  font-weight: 50;
   color:#797878;
   letter-spacing: 2px;
   font-family: 'Roboto', sans-serif;
