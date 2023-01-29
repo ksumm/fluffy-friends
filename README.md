@@ -104,7 +104,7 @@ Responsive link
 
 ### GitHub Pages
 
-The project was deployed to GitHub Pages using the following steps...
+The project was deployed to GitHub Pages using the following steps:
 
 1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
 
@@ -123,7 +123,7 @@ The project was deployed to GitHub Pages using the following steps...
 
 ### Forking the GitHub Repository
 
-By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps:
 
 1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
 
