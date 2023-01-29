@@ -84,6 +84,14 @@ The colour scheme was choosen using the [Imagecolorpicker](https://imagecolorpic
 - #2a1e16
 - #fff
 
+### Wireframes
+
+- Wirefranes was created in [Canva](https://www.canva.com)
+
+![Findafriend](docs/findafriend.png)
+
+![Stories](docs/stories.png)
+
 ## Testing
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
@@ -123,7 +131,9 @@ The project was deployed to GitHub Pages using the following steps:
 
 ### Forking the GitHub Repository
 
-By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps:
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the 
+
+original repository by using the following steps:
 
 1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
 
