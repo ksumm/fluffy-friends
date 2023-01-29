@@ -108,7 +108,7 @@ header {
   position: absolute;
   letter-spacing: 1px;
   width: 50%;
-  height: 100%;
+  height: 80vh;
   background-color: rgba(240,240,238,0.7);
   right:25%;
   text-align: center;
@@ -457,7 +457,7 @@ padding-bottom: 2rem;
 
 /*media queries*/
 /*for small and medium screens up to 900px wide*/
-@media only screen and (max-width: 900px){
+@media only screen and (max-width: 1200px){
 
 .logo img {
   width: 25%;
@@ -554,7 +554,7 @@ font-size: 1rem;
   display:inline-block;
   margin-left: 1rem;
   padding-left: 0.5rem;
- padding-right: 0;
+  padding-right: 0;
   width: 80%;
   height: auto;
   clear: both;
@@ -572,13 +572,11 @@ h2 {
   font-size: 1rem;
 }
 .donation {
-  display: inline-block;
   width: 60%;
   margin-left: 2rem;
   font-size: 1rem;
 }
 .personalinfo {
-  display: inline-block;
   width: 60%;
   margin-left: 2.5rem;
   font-size: 1rem; 
@@ -589,6 +587,8 @@ h2 {
   margin-top: 2rem;
 }
 }
+
+
 
 
 
