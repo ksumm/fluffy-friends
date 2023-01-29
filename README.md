@@ -36,7 +36,7 @@ The site is target to people who loves dogs and want to help animals.
 
 -   [Canva](https://www.canva.com)
      
-    - Canva was used to create the color scheme, wireframes and logo.
+    - Canva was used to create the wireframes and logo.
 
 -  [Font Awesome](https://fontawesome.com/icons) 
 
@@ -52,11 +52,15 @@ The site is target to people who loves dogs and want to help animals.
 
 - GitHub Pages
 
-    - This project is deployed on GitHub pages.
+    - This project was deployed on GitHub pages.
 
 - [Freepik](https://www.freepik.com/popular-photos)
 
-    - This project uses Freepick for images.        
+    - This project uses Freepick for images.  
+    
+- [Imagecolorpicker](https://imagecolorpicker.com)  
+
+   Imagecolorpicker was used to choose the colour scheme.   
 
 
 ## UI/UX
@@ -67,6 +71,19 @@ The Logo was created on [Canva](https://www.canva.com/).
 
 ![Logo](docs/logo.jpg)
 
+### Colour Scheme
+
+The colour scheme was choosen using the [Imagecolorpicker](https://imagecolorpicker.com)  
+
+![Color scheme](docs/colorscheme.png)
+
+### The main colors used:
+
+- #3a3a3a
+- #d4e5f3
+- #2a1e16
+- #fff
+
 ## Testing
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
@@ -74,10 +91,43 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results]()
 
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results]()
+
 ## Responsive
 
 Responsive link
 ## Responsive
 
 Responsive link
+
+
+## Deployment
+
+### GitHub Pages
+
+The project was deployed to GitHub Pages using the following steps...
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+
+2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
+
+    - Alternatively Click [Here](https://raw.githubusercontent.com/) for a GIF demonstrating the process starting from Step 2.
+
+3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
+
+4. Under "Source", click the dropdown called "None" and select "Master Branch".
+
+5. The page will automatically refresh.
+
+6. Scroll back down through the page to locate the now published site [link](https://github.com) in the "GitHub Pages" section.
+
+
+### Forking the GitHub Repository
+
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+
+2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+
+3. You should now have a copy of the original repository in your GitHub account.
  
