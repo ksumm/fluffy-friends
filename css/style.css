@@ -106,9 +106,12 @@ header {
 
 #text-cover {
   position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   letter-spacing: 1px;
   width: 50%;
-  height: 80vh;
+  height: inherit;
   background-color: rgba(240,240,238,0.7);
   right:25%;
   text-align: center;
@@ -116,24 +119,24 @@ header {
 
 #text-cover h3 {
   font-family: 'Roboto', sans-serif;
-  font-size: 8rem;
-  text-align: center;
+  font-size: 4rem;
   font-weight: 100;
   padding-top: 2rem;
   padding-bottom: 2rem;
-  margin-top: 3rem;
-  margin-bottom: 7rem;
   background-color: rgba(255, 255, 255, 0.7);
 }
 
 #text-cover h1 {
   background-color: rgb(255, 255, 255, 0.7);
-  margin-top: 5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+#text-cover h2, p {
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
 #text-cover p {
-  padding-top: 2rem;
+  margin-top: 2rem;
 }
 
 /* about us*/
@@ -457,7 +460,8 @@ padding-bottom: 2rem;
 
 /*media queries*/
 /*for small and medium screens up to 900px wide*/
-@media only screen and (max-width: 1200px){
+@media only screen and (min-width: 320px)
+and (max-width:1180px){
 
 .logo img {
   width: 25%;
@@ -587,7 +591,6 @@ h2 {
   margin-top: 2rem;
 }
 }
-
 
 
 
