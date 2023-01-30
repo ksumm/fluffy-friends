@@ -22,7 +22,6 @@ font-weight: lighter;
 font-size: 2rem;
 letter-spacing: 2px;
 background-color: #d4e5f3;
-
 }
 
 h1 i {
@@ -35,6 +34,7 @@ h1, nav {
   letter-spacing: 1px;
   color: #2a1e16;
 }
+
 nav {
   overflow: auto;
   text-align: right;
@@ -46,7 +46,6 @@ margin-left: 0px;
 margin-top: 0.3rem;
 width: 15%;
 height: 15%;
-
 }
 
 .button {
@@ -88,10 +87,13 @@ height: 15%;
 #menu, #logo {
   line-height: 60px;
 }
+
 header {
   position: sticky; top: 0;
   background-color: white;
 }
+
+/*text-section*/
 
 .container {
   width: 100%;
@@ -101,8 +103,7 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
-  position: relative;
-  
+  position: relative; 
 }
 
 #text-cover {
@@ -132,10 +133,12 @@ header {
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
+
 #text-cover h2, p {
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
+
 #text-cover p {
   margin-top: 2rem;
 }
@@ -169,6 +172,7 @@ header {
   padding-top: 40px;
   text-align: center;
 }
+
 .aboutUs hr {
   border-top: 1px solid #3a3a3a;
   width: 100%;
@@ -180,14 +184,13 @@ header {
   width: 40%;
   float: left;
   padding-left: 3rem;
-  padding-bottom: 3rem; 
-  
+  padding-bottom: 3rem;  
 }
+
 .right-about {
   width: 40%;
   float: right;
   padding-right: 3rem;
-
  }
 
  .right-about li {
@@ -205,10 +208,10 @@ header {
   font-size: 1.2rem;
   display: block;
  }
+
  .makeafriend img {
  height: 40vh;
  width: 60vh;
-
  }
 
  .left-friend {
@@ -217,9 +220,8 @@ header {
   padding-left: 4rem;
   margin-left: 4rem;
   text-align: center;
-
- 
  }
+
  .friendbutton {
   font-size: 1.2rem;
   letter-spacing: 1px;
@@ -236,6 +238,7 @@ header {
   color: #2a1e16;
   cursor: pointer;
  }
+
  .right-friend p {
   margin-top: 2rem;
   margin-bottom: 2rem;
@@ -255,21 +258,24 @@ footer {
   height: 200px;
   background-color: #d4e5f3;
 }
+
 footer p {
   padding-top: 2.5rem;
   padding-bottom: 1rem;
 }
+
 .contact-information p {
   text-align: center;
   text-transform: uppercase;
   font-weight:bolder;
 }
+
 .contact li{
   display: inline;
   list-style-type: none;
-  padding: 10px;
-  
+  padding: 10px; 
 }
+
 .contact {
   text-align: center;
   font-size: 1rem;
@@ -292,7 +298,7 @@ footer p {
   color:#3a3a3a;
 }
 
-/*find a frieng page*/
+/*find a friend page*/
 
 .findafriend {
   margin-bottom: 3rem;
@@ -305,25 +311,23 @@ footer p {
   padding: 60px 80px;
   text-align: center;
   margin-left: 1.5rem;
- 
 }
-
 
 .findafriend img{
   height: 100%;
   width: 100%;
   border-radius: 5px;
 }
+
 .findafriend h2 {
   margin-top: 4%;
- 
 }
 
 .findafriend hr {
     border-top: 1px solid #3a3a3a;
     width: 100%;
     margin: 5px 0;
-    }
+}
 
 .findafriend p {
   margin-top: 20px; 
@@ -338,6 +342,7 @@ footer p {
  letter-spacing: 2px;
  background-color: #d4e5f3 ;
 }
+
 .stories h1 i {
   color: rgba(201, 200, 195);
 }
@@ -357,6 +362,7 @@ padding-bottom: 2rem;
   padding-top: 40px;
   text-align: center;
 }
+
 #text-area hr {
   border-top: 1px solid #3a3a3a;
   width: 100%;
@@ -368,6 +374,7 @@ padding-bottom: 2rem;
   width: 100%;
   border-radius: 5px;
 }
+
 #text-area p {
   line-height: 25px;
 }
@@ -383,7 +390,6 @@ padding-bottom: 2rem;
   padding: 2rem;
   line-height: 3rem;
   font-size: 1.2rem;
-
 }
 
 .donation li{
@@ -392,8 +398,8 @@ padding-bottom: 2rem;
 
 #amount {
   display: block;
-
 }
+
 #amount-choice {
   line-height: 3rem;
   border-radius: 4px;
@@ -403,10 +409,12 @@ padding-bottom: 2rem;
   letter-spacing: 2px;
   font-family: 'Roboto', sans-serif;
 }
+
 #amount-choice option {
   font-size: 4rem;
   text-align: center;
 }
+
 .personalinfo {
   display: grid;
   width: 33%;
@@ -428,6 +436,7 @@ padding-bottom: 2rem;
   letter-spacing: 2px;
   font-family: 'Roboto', sans-serif;
 }
+
 .personalinfo button {
   background-color: #2a1e16;
   line-height: 3rem;
@@ -441,11 +450,12 @@ padding-bottom: 2rem;
 .personalinfo button:hover {
   background-color: #d4e5f3;
   color: #2a1e16;
-
 }
 
 /*media queries*/
-/*for small and medium screens up to 900px wide*/
+
+/*for small and medium screens up to 1180px wide*/
+
 @media only screen and (min-width: 320px)
 and (max-width:1180px){
 
@@ -476,6 +486,7 @@ font-size: 1rem;
   font-size: 3rem;
   margin-bottom: 4rem;
 }
+
 #text-cover h1{
   margin-top: 2rem;
 }
@@ -509,10 +520,12 @@ font-size: 1rem;
  padding: 1.5rem ;
  float: unset; 
 }
+
 .makeafriend{
   margin-top: 0.5rem;
   line-height: 1.5rem;
 }
+
 .makeafriend img {
   height: 20vh;
   width: 30vh;
@@ -531,14 +544,17 @@ font-size: 1rem;
   margin-top: 1rem;
   margin-bottom: 2.5rem;
 }
+
 .contact-information p {
   padding-top: 1.2rem;
   padding-bottom: 0.5rem;
 }
+
 .contact li {
   display: block;
   font-size: 0.7rem;
 }
+
 .findafriend div {
   padding: 30px 25px;
   display:inline-block;
@@ -547,9 +563,9 @@ font-size: 1rem;
   padding-right: 0;
   width: 80%;
   height: auto;
-  clear: both;
-  
+  clear: both; 
 }
+
 .findafriend img {
   width: 80%;
   height: 70%;
@@ -558,24 +574,29 @@ font-size: 1rem;
 h2 {
   font-size: 1rem;
 }
+
 .stories h1 {
   font-size: 1rem;
 }
+
 .donation {
   width: 60%;
   margin-left: 2rem;
   font-size: 1rem;
 }
+
 .personalinfo {
   width: 60%;
   margin-left: 2.5rem;
   font-size: 1rem; 
 }
+
 .personalinfo button {
   font-size: 0.8rem;
   padding:0.1rem 0.9rem;
   margin-top: 2rem;
 }
+
 }
 
 
