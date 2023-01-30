@@ -175,18 +175,6 @@ header {
   text-align: center;
 }
 
-
-/*.dogsQuantity {
-  background-color: #fff;
-  color:#3a3a3a;
-  display: flexbox;
-  text-align: center;
-  line-height: 6rem;
-  font-size: 3rem;
-  font-weight: lighter;
-  padding: 4rem 2rem;
-  font-family:'Roboto', sans-serif;
-}*/
 .left-about { 
   width: 40%;
   float: left;
