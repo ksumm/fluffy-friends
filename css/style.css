@@ -26,7 +26,7 @@ background-color: #d4e5f3;
 }
 
 h1 i {
-  color: rgba(201, 200, 195, 1.2);
+  color: rgba(201, 200, 195);
 }
 
 h1, nav {
@@ -56,7 +56,7 @@ width: 14%;
   padding: 0.7rem;
   border-radius: 5px;
   border: none;
-  background-color: rgba(201, 200, 195, 1.2);
+  background-color: rgba(201, 200, 195);
  }
 
 .button:hover {
@@ -144,7 +144,6 @@ header {
 .dogsnumber {
   background-color: #fff;
   color:#3a3a3a;
-  display: flexbox;
   text-align: center;
   line-height: 4rem;
   font-size: 3rem;
@@ -324,7 +323,6 @@ footer p {
 .findafriend img{
   height: 100%;
   width: 100%;
-  display: center;
   border-radius: 5px;
 }
 .findafriend h2 {
@@ -352,7 +350,7 @@ footer p {
  background-color: #d4e5f3 ;
 }
 .stories h1 i {
-  color: rgba(201, 200, 195, 1.2);
+  color: rgba(201, 200, 195);
 }
 
 #main_block {
@@ -379,7 +377,6 @@ padding-bottom: 2rem;
 #text-area img {
   height: 100%;
   width: 100%;
-  display: center;
   border-radius: 5px;
 }
 #text-area p {
