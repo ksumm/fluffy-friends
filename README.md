@@ -106,12 +106,12 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Known Bugs
 
--   On landscape mode on small mobile devices the Find A Friend button is shown out of the text-section.
+-   The Find A Friend button is shown out of the text-section on the small devices in landscape mode.
 
 
 ## Responsive
 
-[Am I Responsive](https://ui.dev/amiresponsive) was used to check the responsive of the site: 
+[Am I Responsive](https://ui.dev/amiresponsive) was used to check if site responsive: 
 
 ![](docs/responsive.png)
 
