@@ -96,17 +96,24 @@ The colour scheme was choosen using the [Imagecolorpicker](https://imagecolorpic
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results]()
+-   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fksumm.github.io%2Ffluffy-friends%2Findex.html)
 
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results]()
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fksumm.github.io%2Ffluffy-friends%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=uk)
+
+-   Lighthouse Devtools was used to check the accessibility, performance, and SEO:
+
+![](docs/lighthouse.png)
+
+### Known Bugs
+
+-   On landscape mode on small mobile devices the Find A Friend button is shown out of the text-section.
+
 
 ## Responsive
 
-Responsive link
-## Responsive
+[Am I Responsive](https://ui.dev/amiresponsive) was used to check the responsive of the site: 
 
-Responsive link
-
+![](docs/responsive.png)
 
 ## Deployment
 
@@ -140,4 +147,45 @@ original repository by using the following steps:
 2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
 
 3. You should now have a copy of the original repository in your GitHub account.
+
+
+### Making a Local Clone
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+
+2. Under the repository name, click "Clone or download".
+
+3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+
+4. Open Git Bash
+
+5. Change the current working directory to the location where you want the cloned directory to be made.
+
+6. Type `git clone`, and then paste the URL you copied in Step 3.
+
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+
+7. Press Enter. Your local clone will be created.
+
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+
+> Cloning into `CI-Clone`...
+
+> remote: Counting objects: 10, done.
+
+> remote: Compressing objects: 100% (8/8), done.
+
+> remove: Total 10 (delta 1), reused 10 (delta 1)
+
+> Unpacking objects: 100% (10/10), done.
+
+Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
+
+## Credits
+
+-   Images were taken from [Freepik](https://www.freepik.com/popular-photos)
+
+-   Content was written by developer
+
+
  
