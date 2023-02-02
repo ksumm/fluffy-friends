@@ -134,7 +134,12 @@ header {
   padding-bottom: 2rem;
 }
 
-#text-cover h2, p, ul {
+#text-cover h2 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.right-about ul {
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
@@ -260,7 +265,7 @@ footer {
 }
 
 footer p {
-  padding-top: 1rem;
+  padding-top: 2rem;
   padding-bottom: 1rem;
 }
 
