@@ -69,13 +69,13 @@ The site is target to people who loves dogs and want to help animals.
 
 The Logo was created on [Canva](https://www.canva.com/).
 
-![Logo](docs/logo.jpg)
+![Logo](assets/docs/logo.jpg)
 
 ### Colour Scheme
 
 The colour scheme was choosen using the [Imagecolorpicker](https://imagecolorpicker.com)  
 
-![Color scheme](docs/colorscheme.png)
+![Color scheme](assets/docs/colorscheme.png)
 
 ### The main colors used:
 
@@ -88,9 +88,68 @@ The colour scheme was choosen using the [Imagecolorpicker](https://imagecolorpic
 
 - Wirefranes was created in [Canva](https://www.canva.com)
 
-![Findafriend](docs/findafriend.png)
+![Findafriend](assets/docs/findafriend.png)
 
-![Stories](docs/stories.png)
+![Stories](assets/docs/stories.png)
+
+## Features
+
+ ### Color Palette
+ 
+- The calm color pallette of the site evokes welcoming impression, calm, and a sense of security among the users.
+
+![Mainpage](assets/docs/mainpage.png)
+
+ ### Header and Navigation
+ 
+ ![Header](assets/docs/header.png)
+
+- The header is sticky and the same on all the pages. The logotype is on the left side and the navigation bar is on the right. When you clicked on the logo it redirecs you to the home page. 
+
+- All links in nav bar change their color when hovered. 
+
+- The Donate button is highlighted gray to attract the user's attention and prompts him to make a donation.
+
+ ### The main section 
+ 
+ ![](assets/docs/mainsection.png)
+ 
+ - The main section includes the dogs image and the text-covet section with Find A Friend Button. 
+
+ - The button is stands out becouse of its dark brown color and prompts the user to click on it and view the section with animals that need adaption.
+
+
+### About Us
+
+![](assets/docs/aboutus.png)
+
+- About us section is divided into 2 columns and contains information about the organization and what programs it provides.
+
+- In the list, icons in the form of dog paws are used to emphasize that the main theme of the site -  is the protection of the dogs.
+
+### Footer
+
+![](assets/docs/footer.png)
+
+- The footer contains the address, phone numbers and email of the organization, and links to the social networks pages.
+
+### Find A Friend Page
+
+![](assets/docs/findafriendpage.png)
+
+- The response page displays, depending on the screen size, from one to three columns with photos and information about dogs looking for new owners.
+
+### Stories Page 
+
+![](assets/docs/stories.png)
+
+- The page contains photos and happy stories of animals that managed to find new owners.
+
+### Donate Page
+
+![](assets/docs/donate.png)
+
+- The page contains a form for charitable contributions to support animals. There is an opportunity to choose the amount of the charitable contribution and the type of contribution - one-time or monthly payment. It is responsive and easy to follow. 
 
 ## Testing
 
@@ -102,7 +161,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 -   Lighthouse Devtools was used to check the accessibility, performance, and SEO:
 
-![](docs/lighthouse.png)
+![](assets/docs/lighthouse.png)
 
 ### Known Bugs
 
@@ -113,7 +172,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 [Am I Responsive](https://ui.dev/amiresponsive) was used to check if site responsive: 
 
-![](docs/responsive.png)
+![](assets/docs/responsive.png)
 
 ## Deployment
 
