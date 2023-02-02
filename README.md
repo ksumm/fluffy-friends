@@ -141,13 +141,13 @@ The colour scheme was choosen using the [Imagecolorpicker](https://imagecolorpic
 
 ### Stories Page 
 
-![](assets/docs/storiespage.png)
+![](assets/docs/stories.png)
 
 - The page contains photos and happy stories of animals that managed to find new owners.
 
 ### Donate Page
 
-![](assets/docs/donatepage.png)
+![](assets/docs/donate.png)
 
 - The page contains a form for charitable contributions to support animals. There is an opportunity to choose the amount of the charitable contribution and the type of contribution - one-time or monthly payment. It is responsive and easy to follow. 
 
