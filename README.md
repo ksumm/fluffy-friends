@@ -167,6 +167,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 -   The Find A Friend button is shown out of the text-section on the small devices in landscape mode.
 
+-   The location icon is not shown in the footer in the Google Chrome browser.
+
 
 ## Responsive
 
