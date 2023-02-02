@@ -141,7 +141,7 @@ The colour scheme was choosen using the [Imagecolorpicker](https://imagecolorpic
 
 ### Stories Page 
 
-![](assets/docs/stories.png)
+![](assets/docs/storiespage.png)
 
 - The page contains photos and happy stories of animals that managed to find new owners.
 
