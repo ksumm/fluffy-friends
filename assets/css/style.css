@@ -93,7 +93,7 @@ header {
   background-color: white;
 }
 
-/*text-section*/
+/*main-section*/
 
 .container {
   width: 100%;
@@ -134,7 +134,7 @@ header {
   padding-bottom: 2rem;
 }
 
-#text-cover h2, p {
+#text-cover h2, p,  {
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
